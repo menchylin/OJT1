@@ -1,0 +1,327 @@
+0000.003 (0) Opened log file at time: Thu, 26 Nov 2020 19:15:24 +0000 on http://localhost/wordpress
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.30 WP: 5.5.3 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-M2GJHJ8 10.0 build 18363 (Windows 10) AMD64) MySQL: 8.0.21 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.9M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 53218.2 MB
+0000.021 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.024 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.036 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1604890632, seconds_ago=1527492)
+0000.048 (0) Set semaphore last lock (fd) time to 2020-11-26 19:15:24
+0000.052 (0) Semaphore lock (fd) complete
+0000.061 (0) Backup run: resumption=0, nonce=979572713789, file_nonce=979572713789 begun at=1606418124 (0s ago), job type=backup
+0000.068 (0) Scheduling a resumption (1) after 300 seconds (1606418424) in case this run gets aborted
+0000.090 (0) Checking if we have a zip executable available
+0000.096 (0) Creation of backups of directories: beginning
+0000.107 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.162 (0) Total entities for the zip file: 1120 directories, 6464 files (0 skipped as non-modified), 92.5 MB
+0002.194 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.219 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.244 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.268 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.293 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.297 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.4 MB, 6464 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.757 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 600 files added (on-disk size: 2681.5 KB)
+0002.781 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 700 files added (on-disk size: 2681.5 KB)
+0002.805 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 800 files added (on-disk size: 2681.5 KB)
+0002.829 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 900 files added (on-disk size: 2681.5 KB)
+0002.854 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1000 files added (on-disk size: 2681.5 KB)
+0002.858 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.2 MB, 6464 files batched, 501 (1002) added so far); re-opening (prior size: 2681.5 KB)
+0003.506 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1100 files added (on-disk size: 5848.6 KB)
+0003.530 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1200 files added (on-disk size: 5848.6 KB)
+0003.554 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1300 files added (on-disk size: 5848.6 KB)
+0003.578 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1400 files added (on-disk size: 5848.6 KB)
+0003.602 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1500 files added (on-disk size: 5848.6 KB)
+0003.606 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 MB, 6464 files batched, 501 (1503) added so far); re-opening (prior size: 5848.6 KB)
+0004.017 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1600 files added (on-disk size: 7579 KB)
+0004.041 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1700 files added (on-disk size: 7579 KB)
+0004.065 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1800 files added (on-disk size: 7579 KB)
+0004.091 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 1900 files added (on-disk size: 7579 KB)
+0004.114 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2000 files added (on-disk size: 7579 KB)
+0004.119 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.9 MB, 6464 files batched, 501 (2004) added so far); re-opening (prior size: 7579 KB)
+0004.412 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2100 files added (on-disk size: 8643.6 KB)
+0004.437 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2200 files added (on-disk size: 8643.6 KB)
+0004.461 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2300 files added (on-disk size: 8643.6 KB)
+0004.486 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2400 files added (on-disk size: 8643.6 KB)
+0004.510 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2500 files added (on-disk size: 8643.6 KB)
+0004.514 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11 MB, 6464 files batched, 501 (2505) added so far); re-opening (prior size: 8643.6 KB)
+0005.160 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2600 files added (on-disk size: 12455.9 KB)
+0005.184 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2700 files added (on-disk size: 12455.9 KB)
+0005.208 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2800 files added (on-disk size: 12455.9 KB)
+0005.232 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 2900 files added (on-disk size: 12455.9 KB)
+0005.257 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3000 files added (on-disk size: 12455.9 KB)
+0005.261 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.1 MB, 6464 files batched, 501 (3006) added so far); re-opening (prior size: 12455.9 KB)
+0005.825 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3100 files added (on-disk size: 17823.1 KB)
+0005.849 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3200 files added (on-disk size: 17823.1 KB)
+0005.874 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3300 files added (on-disk size: 17823.1 KB)
+0005.898 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3400 files added (on-disk size: 17823.1 KB)
+0005.921 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3500 files added (on-disk size: 17823.1 KB)
+0005.927 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.4 MB, 6464 files batched, 501 (3507) added so far); re-opening (prior size: 17823.1 KB)
+0006.445 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3600 files added (on-disk size: 19904.6 KB)
+0006.469 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3700 files added (on-disk size: 19904.6 KB)
+0006.495 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3800 files added (on-disk size: 19904.6 KB)
+0006.524 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 3900 files added (on-disk size: 19904.6 KB)
+0006.551 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4000 files added (on-disk size: 19904.6 KB)
+0006.556 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18.1 MB, 6464 files batched, 501 (4008) added so far); re-opening (prior size: 19904.6 KB)
+0007.923 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4100 files added (on-disk size: 24610.8 KB)
+0007.949 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4200 files added (on-disk size: 24610.8 KB)
+0007.974 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4300 files added (on-disk size: 24610.8 KB)
+0008.002 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4400 files added (on-disk size: 24610.8 KB)
+0008.028 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4500 files added (on-disk size: 24610.8 KB)
+0008.033 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.7 MB, 6464 files batched, 501 (4509) added so far); re-opening (prior size: 24610.8 KB)
+0008.499 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4600 files added (on-disk size: 25526.4 KB)
+0008.525 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4700 files added (on-disk size: 25526.4 KB)
+0008.549 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4800 files added (on-disk size: 25526.4 KB)
+0008.574 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 4900 files added (on-disk size: 25526.4 KB)
+0008.599 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5000 files added (on-disk size: 25526.4 KB)
+0008.604 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 6464 files batched, 501 (5010) added so far); re-opening (prior size: 25526.4 KB)
+0009.053 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5100 files added (on-disk size: 27155 KB)
+0009.077 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5200 files added (on-disk size: 27155 KB)
+0009.101 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5300 files added (on-disk size: 27155 KB)
+0009.125 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5400 files added (on-disk size: 27155 KB)
+0009.149 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5500 files added (on-disk size: 27155 KB)
+0009.155 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 MB, 6464 files batched, 501 (5511) added so far); re-opening (prior size: 27155 KB)
+0009.580 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5600 files added (on-disk size: 28060.6 KB)
+0009.605 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5700 files added (on-disk size: 28060.6 KB)
+0009.630 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5800 files added (on-disk size: 28060.6 KB)
+0009.657 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 5900 files added (on-disk size: 28060.6 KB)
+0009.682 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 6000 files added (on-disk size: 28060.6 KB)
+0009.688 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.2 MB, 6464 files batched, 501 (6012) added so far); re-opening (prior size: 28060.6 KB)
+0010.551 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 6100 files added (on-disk size: 32740.2 KB)
+0010.576 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 6200 files added (on-disk size: 32740.2 KB)
+0010.601 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 6300 files added (on-disk size: 32740.2 KB)
+0010.625 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip.tmp: 6400 files added (on-disk size: 32740.2 KB)
+0011.670 (0) Created plugins zip (0) - 33814.8 KB in 11.6 s (2925.8 KB/s) (sha1: 3aa8614d5db556c8f8036f68c822e3491cc9fb2f, sha256: a54eccb4d59c96640addcead3ac632dbe697d6821ee666605574be86aeb3eeda)
+0011.679 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.881 (0) Total entities for the zip file: 126 directories, 593 files (0 skipped as non-modified), 17.5 MB
+0011.905 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.929 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.953 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0011.977 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0012.001 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0012.005 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.5 MB, 593 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0012.996 (0) Created themes zip (0) - 9796.8 KB in 1.3 s (7473.2 KB/s) (sha1: eb14a839bac4e03ad9b8008b727ac84ad8f906d8, sha256: 851b539197db939be38aeece9a3f12469f2965be356fdeba33ab39daa458f90d)
+0013.003 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0013.006 (0) Looking for candidates to backup in: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs/wp-content/uploads
+0013.009 (0) finding files: 2020: adding to list (1)
+0013.012 (0) finding files: ultimatemember: adding to list (2)
+0013.015 (0) finding files: ur-logs: adding to list (3)
+0013.018 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0013.067 (0) Total entities for the zip file: 6 directories, 127 files (0 skipped as non-modified), 50.6 MB
+0013.091 (0) Zip: backup_2020-11-26-1915_SLU_ICON_979572713789-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0013.096 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.4 MB, 127 files batched, 109 (109) added so far); re-opening (prior size: 0 KB)
+0013.213 (0) A useful amount of data was added after this amount of zip processing: 0.5 s (normalised: 0.5 s, rate: 47655.2 KB/s)
+0013.219 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.5457820892334, normalised_time=0.53719254955027, max_time=13.212783813477, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0013.704 (0) Created uploads zip (0) - 51789.8 KB in 0.7 s (76052.6 KB/s) (sha1: e58c0fba345e34fabc42070bb678f180e26e04f9, sha256: 782ac7056a088aaed526a4ae9645fad1d6db73ab83c7f2f5ab23e3b3988076fd)
+0013.711 (0) Beginning backup of other directories found in the content directory (index: 0)
+0013.714 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0013.717 (0) Looking for candidates to backup in: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs/wp-content
+0013.720 (0) finding files: index.php: adding to list (1)
+0013.723 (0) finding files: languages: adding to list (2)
+0013.726 (0) finding files: plugins: skipping: this is the plugins directory
+0013.729 (0) finding files: themes: skipping: this is the themes directory
+0013.732 (0) finding files: updraft: skipping: this is the updraft directory
+0013.735 (0) finding files: upgrade: skipping: excluded by options
+0013.738 (0) finding files: uploads: skipping: this is the uploads directory
+0013.749 (0) Total entities for the zip file: 3 directories, 1 files (0 skipped as non-modified), 0 MB
+0013.764 (0) Created others zip (0) - 0.5 KB in 0 s (21 KB/s) (sha1: cf67bcbcac592961ebbf5c4dcaf88c56ae2a57b7, sha256: 8726945c9121f4bef7b1425f4df9f78acea6332902c6cca38b4cfd1589c3c54c)
+0013.779 (0) Saving backup status to database (elements: 8)
+0013.787 (0) Beginning creation of database dump (WordPress DB)
+0013.790 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0013.797 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0014.058 (0) Binary mysqldump: error (code: 2)
+0014.062 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0014.303 (0) Binary mysqldump: error (code: 2)
+0014.332 (0) Table wp_options: Total expected rows (approximate): 335
+0014.345 (0) Table wp_options: Rows added in this batch (next record: 1000): 331 in 0.01 seconds
+0014.358 (0) Table wp_options: finishing file(s) (2, 28.5 KB)
+0014.367 (0) Table wp_users: Total expected rows (approximate): 2
+0014.375 (0) Table wp_users: Rows added in this batch (next record: 1000): 2 in 0.00 seconds
+0014.387 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0014.398 (0) Table wp_usermeta: Total expected rows (approximate): 59
+0014.406 (0) Table wp_usermeta: Rows added in this batch (next record: 1000): 60 in 0.00 seconds
+0014.418 (0) Table wp_usermeta: finishing file(s) (2, 2 KB)
+0014.427 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 3
+0014.434 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1000): 3 in 0.00 seconds
+0014.446 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.7 KB)
+0014.456 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0014.465 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.477 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0014.487 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0014.496 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1000): 3 in 0.00 seconds
+0014.508 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0014.517 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 9
+0014.527 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 1000): 9 in 0.00 seconds
+0014.541 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0014.550 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0014.559 (0) Table wp_commentmeta: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.581 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0014.593 (0) Table wp_comments: Total expected rows (approximate): 0
+0014.600 (0) Table wp_comments: Rows added in this batch (next record: 1000): 1 in 0.00 seconds
+0014.613 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0014.622 (0) Table wp_links: Total expected rows (approximate): 0
+0014.632 (0) Table wp_links: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.644 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0014.654 (0) Table wp_postmeta: Total expected rows (approximate): 301
+0014.664 (0) Table wp_postmeta: Rows added in this batch (next record: 1000): 301 in 0.00 seconds
+0014.678 (0) Table wp_postmeta: finishing file(s) (2, 5.8 KB)
+0014.686 (0) Table wp_posts: Total expected rows (approximate): 135
+0014.700 (0) Table wp_posts: Rows added in this batch (next record: 1000): 135 in 0.01 seconds
+0014.712 (0) Table wp_posts: finishing file(s) (2, 10.8 KB)
+0014.720 (0) Table wp_term_relationships: Total expected rows (approximate): 8
+0014.728 (0) Table wp_term_relationships: Rows added in this batch (next record: 1000): 9 in 0.00 seconds
+0014.739 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0014.748 (0) Table wp_term_taxonomy: Total expected rows (approximate): 6
+0014.756 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1000): 6 in 0.00 seconds
+0014.767 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0014.776 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0014.786 (0) Table wp_termmeta: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.797 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0014.806 (0) Table wp_terms: Total expected rows (approximate): 6
+0014.814 (0) Table wp_terms: Rows added in this batch (next record: 1000): 6 in 0.00 seconds
+0014.826 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0014.834 (0) Table wp_login_redirects: Total expected rows (approximate): 3
+0014.844 (0) Table wp_login_redirects: Rows added in this batch (next record: 1000): 3 in 0.00 seconds
+0014.867 (0) Table wp_login_redirects: finishing file(s) (2, 0.4 KB)
+0014.877 (0) Table wp_um_metadata: Total expected rows (approximate): 0
+0014.887 (0) Table wp_um_metadata: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.899 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0014.908 (0) Table wp_user_registration_sessions: Total expected rows (approximate): 0
+0014.918 (0) Table wp_user_registration_sessions: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.930 (0) Table wp_user_registration_sessions: finishing file(s) (2, 0.4 KB)
+0014.939 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 2
+0014.949 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 1000): 2 in 0.00 seconds
+0014.961 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0014.971 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (approximate): 5
+0014.982 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 1000): 6 in 0.00 seconds
+0014.994 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.5 KB)
+0014.998 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_options.table.tmpr1001.gz (1/21): adding to final database dump
+0015.006 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_options.table.gz (2/21): adding to final database dump
+0015.010 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_users.table.tmpr1001.gz (3/21): adding to final database dump
+0015.013 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_users.table.gz (4/21): adding to final database dump
+0015.015 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_usermeta.table.tmpr1001.gz (5/21): adding to final database dump
+0015.019 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_usermeta.table.gz (6/21): adding to final database dump
+0015.022 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_actionscheduler_actions.table.tmpr1001.gz (7/21): adding to final database dump
+0015.025 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_actionscheduler_actions.table.gz (8/21): adding to final database dump
+0015.028 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_actionscheduler_claims.table.tmpr1.gz (9/21): adding to final database dump
+0015.032 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_actionscheduler_claims.table.gz (10/21): adding to final database dump
+0015.034 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_actionscheduler_groups.table.tmpr1001.gz (11/21): adding to final database dump
+0015.038 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_actionscheduler_groups.table.gz (12/21): adding to final database dump
+0015.041 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_actionscheduler_logs.table.tmpr1001.gz (13/21): adding to final database dump
+0015.043 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_actionscheduler_logs.table.gz (14/21): adding to final database dump
+0015.047 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_commentmeta.table.tmpr1.gz (15/21): adding to final database dump
+0015.050 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_commentmeta.table.gz (16/21): adding to final database dump
+0015.052 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_comments.table.tmpr1001.gz (17/21): adding to final database dump
+0015.055 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_comments.table.gz (18/21): adding to final database dump
+0015.058 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_links.table.tmpr1.gz (19/21): adding to final database dump
+0015.061 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_links.table.gz (20/21): adding to final database dump
+0015.064 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_postmeta.table.tmpr1001.gz (21/21): adding to final database dump
+0015.068 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_postmeta.table.gz (22/21): adding to final database dump
+0015.071 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_posts.table.tmpr1001.gz (23/21): adding to final database dump
+0015.077 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_posts.table.gz (24/21): adding to final database dump
+0015.080 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_term_relationships.table.tmpr1001.gz (25/21): adding to final database dump
+0015.082 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_term_relationships.table.gz (26/21): adding to final database dump
+0015.085 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_term_taxonomy.table.tmpr1001.gz (27/21): adding to final database dump
+0015.089 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_term_taxonomy.table.gz (28/21): adding to final database dump
+0015.091 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_termmeta.table.tmpr1.gz (29/21): adding to final database dump
+0015.094 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_termmeta.table.gz (30/21): adding to final database dump
+0015.097 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_terms.table.tmpr1001.gz (31/21): adding to final database dump
+0015.100 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_terms.table.gz (32/21): adding to final database dump
+0015.104 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_login_redirects.table.tmpr1001.gz (33/21): adding to final database dump
+0015.107 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_login_redirects.table.gz (34/21): adding to final database dump
+0015.110 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_um_metadata.table.tmpr1.gz (35/21): adding to final database dump
+0015.112 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_um_metadata.table.gz (36/21): adding to final database dump
+0015.115 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_user_registration_sessions.table.tmpr1.gz (37/21): adding to final database dump
+0015.118 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_user_registration_sessions.table.gz (38/21): adding to final database dump
+0015.121 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_wpforms_tasks_meta.table.tmpr1001.gz (39/21): adding to final database dump
+0015.124 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_wpforms_tasks_meta.table.gz (40/21): adding to final database dump
+0015.128 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr1001.gz (41/21): adding to final database dump
+0015.131 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db-table-wp_wpmailsmtp_tasks_meta.table.gz (42/21): adding to final database dump
+0015.142 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db.gz: finished writing out complete database file (24 KB)
+0015.162 (0) Total database tables backed up: 21 (backup_2020-11-26-1915_SLU_ICON_979572713789-db.gz, size: 50605, sha1: 9c984ed46fd010c2ede7eec2b85a430f3efee2de, sha256: 1527f6c74029a26fea172dd92f1e5ef4ef72ca4c5faa21b7acf1fc0431f27cee)
+0015.192 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0015.195 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0015.198 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0015.200 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-others.zip: others: This file has not yet been successfully uploaded: will queue
+0015.204 (0) backup_2020-11-26-1915_SLU_ICON_979572713789-db.gz: db: This file has not yet been successfully uploaded: will queue
+0015.206 (0) Saving backup history. Total backup size: 93.2 MB
+0015.213 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0015.223 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0015.227 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-70a3bd77fb4fd54f6d448503354e7a3d)
+0019.781 (0) Google Drive: quota usage: used=8790.8 MB, total=10494550.8 MB, available=10485760 MB
+0019.784 (0) Google Drive: backup_2020-11-26-1915_SLU_ICON_979572713789-plugins.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+0021.318 (0) Googledrive chunked upload: 3 % uploaded (1048576)
+0022.346 (0) Googledrive chunked upload: 6.1 % uploaded (2097152)
+0082.364 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0082.368 (0) An error condition has occurred for the first time during this job
+0083.223 (0) Google Drive: quota usage: used=8790.8 MB, total=10494550.8 MB, available=10485760 MB
+0083.227 (0) Google Drive: backup_2020-11-26-1915_SLU_ICON_979572713789-themes.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+0088.773 (0) Googledrive chunked upload: 10.5 % uploaded (1048576)
+0093.730 (0) Googledrive chunked upload: 20.9 % uploaded (2097152)
+0153.739 (0) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0154.699 (0) Google Drive: quota usage: used=8790.8 MB, total=10494550.8 MB, available=10485760 MB
+0154.704 (0) Google Drive: backup_2020-11-26-1915_SLU_ICON_979572713789-uploads.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+0228.630 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0229.137 (0) Google Drive: quota usage: used=8790.8 MB, total=10494550.8 MB, available=10485760 MB
+0229.144 (0) Google Drive: backup_2020-11-26-1915_SLU_ICON_979572713789-others.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+0231.527 (0) Googledrive chunked upload: 100 % uploaded
+0231.537 (0) Google Drive: OK: Archive backup_2020-11-26-1915_SLU_ICON_979572713789-others.zip uploaded in 2.39 seconds
+0231.540 (0) Recording as successfully uploaded: backup_2020-11-26-1915_SLU_ICON_979572713789-others.zip
+0231.547 (0) Deleting local file: backup_2020-11-26-1915_SLU_ICON_979572713789-others.zip: OK
+0232.308 (0) Google Drive: quota usage: used=8790.8 MB, total=10494550.8 MB, available=10485760 MB
+0232.318 (0) Google Drive: backup_2020-11-26-1915_SLU_ICON_979572713789-db.gz: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+0234.804 (0) Googledrive chunked upload: 100 % uploaded
+0234.814 (0) Google Drive: OK: Archive backup_2020-11-26-1915_SLU_ICON_979572713789-db.gz uploaded in 2.49 seconds
+0234.817 (0) Recording as successfully uploaded: backup_2020-11-26-1915_SLU_ICON_979572713789-db.gz
+0234.825 (0) Deleting local file: backup_2020-11-26-1915_SLU_ICON_979572713789-db.gz: OK
+0234.832 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0234.835 (0) Number of backup sets in history: 4; groups (db): 1
+0234.838 (0) Examining (for databases) backup set with group_id=0, nonce=979572713789, datestamp=1606418124 (Nov 26 2020 19:15:24)
+0234.841 (0) This backup set is the backup set just made, so will not be deleted.
+0234.841 (0) Examining (for databases) backup set with group_id=0, nonce=5cff436e17d4, datestamp=1604890632 (Nov 09 2020 02:57:12)
+0234.841 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0234.843 (0) Examining (for databases) backup set with group_id=0, nonce=628163ff2d9b, datestamp=1604041121 (Oct 30 2020 06:58:41)
+0234.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0234.844 (0) Examining (for databases) backup set with group_id=0, nonce=6bbce06a2006, datestamp=1603683303 (Oct 26 2020 03:35:03)
+0234.844 (0) 1603683303: db: this set includes a database (backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-db.gz); db count is now 3
+0234.844 (0) 1603683303: db: over retain limit (3); will delete this database
+0234.844 (0) Delete file: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-db.gz, service=googledrive
+0236.815 (0) Google Drive: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-db.gz: Deletion successful
+0236.831 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0236.834 (0) Number of backup sets in history: 4; groups (files): 1
+0236.837 (0) Examining (for files) backup set with nonce=979572713789, datestamp=1606418124 (Nov 26 2020 19:15:24)
+0236.837 (0) This backup set is the backup set just made, so will not be deleted.
+0236.840 (0) This backup set is the backup set just made, so will not be deleted.
+0236.840 (0) This backup set is the backup set just made, so will not be deleted.
+0236.840 (0) This backup set is the backup set just made, so will not be deleted.
+0236.840 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.843 (0) Examining (for files) backup set with nonce=5cff436e17d4, datestamp=1604890632 (Nov 09 2020 02:57:12)
+0236.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.843 (0) Examining (for files) backup set with nonce=628163ff2d9b, datestamp=1604041121 (Oct 30 2020 06:58:41)
+0236.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.843 (0) Examining (for files) backup set with nonce=6bbce06a2006, datestamp=1603683303 (Oct 26 2020 03:35:03)
+0236.843 (0) plugins: over retain limit (3); will delete this file entity
+0236.843 (0) themes: over retain limit (3); will delete this file entity
+0236.843 (0) uploads: over retain limit (3); will delete this file entity
+0236.843 (0) others: over retain limit (3); will delete this file entity
+0236.843 (0) Delete file: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-plugins.zip, service=googledrive
+0236.847 (0) Deleting local copy (backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-plugins.zip)
+0236.851 (0) Delete file: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-themes.zip, service=googledrive
+0236.854 (0) Deleting local copy (backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-themes.zip)
+0236.857 (0) Delete file: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-uploads.zip, service=googledrive
+0236.862 (0) Deleting local copy (backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-uploads.zip)
+0236.865 (0) Delete file: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-others.zip, service=googledrive
+0238.182 (0) Google Drive: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-others.zip: Deletion successful
+0238.194 (0) Google Drive: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-plugins.zip: Deletion failed: file was not found
+0238.197 (0) Google Drive: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-themes.zip: Deletion failed: file was not found
+0238.200 (0) Google Drive: backup_2020-10-26-0335_SLU_ICON_6bbce06a2006-uploads.zip: Deletion failed: file was not found
+0238.213 (0) This backup set is now empty; will remove from history
+0238.220 (0) Deleting log file (log.6bbce06a2006.txt)
+0238.227 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0238.238 (0) Resume backup (979572713789, 0): finish run
+0238.247 (0) Decremented the semaphore (fd) by 1
+0238.253 (0) Semaphore (fd) unlocked
+0238.256 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0238.265 (0) Rescheduling resumption 1: moving to 60 seconds from now (1606418422)
+0238.271 (0) The backup has not finished; a resumption is scheduled
+194726.535 (1) Opened log file at time: Sun, 29 Nov 2020 01:20:50 +0000 on http://localhost/wordpress
+194726.544 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.30 WP: 5.5.3 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-M2GJHJ8 10.0 build 18363 (Windows 10) AMD64) MySQL: 8.0.21 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+194726.549 (1) Free space on disk containing Updraft's temporary directory: 54596.8 MB
+194726.554 (1) This backup task (979572713789) is either complete or began over 2 days ago: ending (1606612850.8636, 1606418124) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, runs_started, current_resumption, binzip, filecreating_substatus, files_enumerated_at, warnings, run_times, useful_checkin, sha1-plugins0, sha256-plugins0, sha1-themes0, sha256-themes0, sha1-uploads0, sha256-uploads0, sha1-others0, sha256-others0, backup_files_array, binsqldump, dbcreating_substatus, sha1-db0, sha256-db0, uploading_substatus, googledrive-s-70a3bd77fb4fd54f6d448503354e7a3d, uploaded_c1bd00c098250b1f0a80a4274d3e5faa, uploaded_googledrive-s-70a3bd77fb4fd54f6d448503354e7a3d-c1bd00c098250b1f0a80a4274d3e5faa, uploaded_9d6138c82a5a90b6e12fdab8bfa5ad43, uploaded_googledrive-s-70a3bd77fb4fd54f6d448503354e7a3d-9d6138c82a5a90b6e12fdab8bfa5ad43, prune)

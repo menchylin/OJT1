@@ -1,0 +1,187 @@
+29206.853 (1) Opened log file at time: Mon, 09 Nov 2020 11:03:59 +0000 on http://localhost/wordpress
+29206.856 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.30 WP: 5.5.3 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-M2GJHJ8 10.0 build 18363 (Windows 10) AMD64) MySQL: 8.0.21 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.7M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+29206.859 (1) Free space on disk containing Updraft's temporary directory: 64055.5 MB
+29206.865 (1) Backup run: resumption=1, nonce=ca286e224c1d, file_nonce=ca286e224c1d begun at=1604890632 (29207s ago), job type=backup, previous check-in=219.8s
+29206.868 (1) Long time past since expected resumption time: approx expected=1604891152.7, now=1604919839.8, diff=28687
+29206.874 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+29206.880 (1) Scheduling a resumption (2) after 300 seconds (1604920139) in case this run gets aborted
+29206.886 (1) Checking if we have a zip executable available
+29206.889 (1) Creation of backups of directories: already finished
+29206.892 (1) Saving backup status to database (elements: 8)
+29206.899 (1) Database dump (WordPress DB): Creation was completed already
+29206.902 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+29206.910 (1) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+29206.913 (1) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+29206.916 (1) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+29206.919 (1) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-others.zip: others: This file has already been successfully uploaded
+29206.922 (1) backup_2020-11-09-0257_SLU_ICON_ca286e224c1d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+29206.925 (1) Saving backup history. Total backup size: Unknown
+29206.945 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+29206.952 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+29206.954 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-70a3bd77fb4fd54f6d448503354e7a3d)
+29209.539 (1) Google Drive: quota usage: used=8781.2 MB, total=10494541.2 MB, available=10485760 MB
+29209.549 (1) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-plugins.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+29270.284 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+29270.295 (1) An error condition has occurred for the first time during this job
+29270.836 (1) Google Drive: quota usage: used=8781.2 MB, total=10494541.2 MB, available=10485760 MB
+29270.840 (1) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-themes.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+29331.553 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+29332.124 (1) Google Drive: quota usage: used=8781.2 MB, total=10494541.2 MB, available=10485760 MB
+29332.128 (1) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-uploads.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+29332.342 (1) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-uploads.zip: upload already began; attempting to resume from byte 4718591
+29333.147 (1) Googledrive chunked upload: 10.9 % uploaded (5767168)
+29333.970 (1) Googledrive chunked upload: 12.9 % uploaded (6815744)
+29334.789 (1) Googledrive chunked upload: 14.8 % uploaded (7864320)
+29335.599 (1) Googledrive chunked upload: 16.8 % uploaded (8912896)
+29395.608 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+29395.615 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+29395.618 (1) Number of backup sets in history: 3; groups (db): 1
+29395.621 (1) Examining (for databases) backup set with group_id=0, nonce=ca286e224c1d, datestamp=1604890632 (Nov 09 2020 02:57:12)
+29395.623 (1) This backup set is the backup set just made, so will not be deleted.
+29395.623 (1) Examining (for databases) backup set with group_id=0, nonce=628163ff2d9b, datestamp=1604041121 (Oct 30 2020 06:58:41)
+29395.623 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+29395.626 (1) Examining (for databases) backup set with group_id=0, nonce=6bbce06a2006, datestamp=1603683303 (Oct 26 2020 03:35:03)
+29395.626 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+29395.627 (1) Number of backup sets in history: 3; groups (files): 1
+29395.629 (1) Examining (for files) backup set with nonce=ca286e224c1d, datestamp=1604890632 (Nov 09 2020 02:57:12)
+29395.629 (1) This backup set is the backup set just made, so will not be deleted.
+29395.633 (1) This backup set is the backup set just made, so will not be deleted.
+29395.633 (1) This backup set is the backup set just made, so will not be deleted.
+29395.633 (1) This backup set is the backup set just made, so will not be deleted.
+29395.633 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+29395.636 (1) Examining (for files) backup set with nonce=628163ff2d9b, datestamp=1604041121 (Oct 30 2020 06:58:41)
+29395.636 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+29395.636 (1) Examining (for files) backup set with nonce=6bbce06a2006, datestamp=1603683303 (Oct 26 2020 03:35:03)
+29395.636 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+29395.636 (1) Retain: saving new backup history (sets now: 3) and finishing retain operation
+29395.646 (1) Resume backup (ca286e224c1d, 1): finish run
+29395.651 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+29395.658 (1) The backup has not finished; a resumption is scheduled
+29629.830 (2) Opened log file at time: Mon, 09 Nov 2020 11:11:02 +0000 on http://localhost/wordpress
+29629.834 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.30 WP: 5.5.3 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-M2GJHJ8 10.0 build 18363 (Windows 10) AMD64) MySQL: 8.0.21 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.7M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+29629.837 (2) Free space on disk containing Updraft's temporary directory: 64076.2 MB
+29629.843 (2) Backup run: resumption=2, nonce=ca286e224c1d, file_nonce=ca286e224c1d begun at=1604890632 (29630s ago), job type=backup, previous check-in=128.7s
+29629.850 (2) Scheduling a resumption (3) after 300 seconds (1604920562) in case this run gets aborted
+29629.856 (2) Checking if we have a zip executable available
+29629.859 (2) Creation of backups of directories: already finished
+29629.862 (2) Saving backup status to database (elements: 8)
+29629.870 (2) Database dump (WordPress DB): Creation was completed already
+29629.873 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+29629.884 (2) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+29629.887 (2) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+29629.890 (2) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+29629.893 (2) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-others.zip: others: This file has already been successfully uploaded
+29629.896 (2) backup_2020-11-09-0257_SLU_ICON_ca286e224c1d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+29629.899 (2) Saving backup history. Total backup size: Unknown
+29629.905 (2) Requesting upload of the files that have not yet been successfully uploaded (3)
+29629.911 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+29629.914 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-70a3bd77fb4fd54f6d448503354e7a3d)
+29631.582 (2) Google Drive: quota usage: used=8781.2 MB, total=10494541.2 MB, available=10485760 MB
+29631.586 (2) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-plugins.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+29633.179 (2) Googledrive chunked upload: 3 % uploaded (1048576)
+29634.010 (2) Googledrive chunked upload: 6.1 % uploaded (2097152)
+29634.880 (2) Googledrive chunked upload: 9.1 % uploaded (3145728)
+29694.889 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+29694.894 (2) An error condition has occurred for the first time during this job
+29695.536 (2) Google Drive: quota usage: used=8781.2 MB, total=10494541.2 MB, available=10485760 MB
+29695.539 (2) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-themes.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+29697.017 (2) Googledrive chunked upload: 10.5 % uploaded (1048576)
+29697.822 (2) Googledrive chunked upload: 20.9 % uploaded (2097152)
+29698.678 (2) Googledrive chunked upload: 31.4 % uploaded (3145728)
+29699.479 (2) Googledrive chunked upload: 41.8 % uploaded (4194304)
+29700.306 (2) Googledrive chunked upload: 52.3 % uploaded (5242880)
+29701.117 (2) Googledrive chunked upload: 62.7 % uploaded (6291456)
+29701.913 (2) Googledrive chunked upload: 73.2 % uploaded (7340032)
+29702.767 (2) Googledrive chunked upload: 83.6 % uploaded (8388608)
+29762.775 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+29763.458 (2) Google Drive: quota usage: used=8781.2 MB, total=10494541.2 MB, available=10485760 MB
+29763.535 (2) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-uploads.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+29763.747 (2) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-uploads.zip: upload already began; attempting to resume from byte 13631487
+29764.581 (2) Googledrive chunked upload: 27.7 % uploaded (14680064)
+29765.386 (2) Googledrive chunked upload: 29.7 % uploaded (15728640)
+29766.208 (2) Googledrive chunked upload: 31.6 % uploaded (16777216)
+29767.037 (2) Googledrive chunked upload: 33.6 % uploaded (17825792)
+29827.046 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+29827.054 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+29827.058 (2) Number of backup sets in history: 3; groups (db): 1
+29827.061 (2) Examining (for databases) backup set with group_id=0, nonce=ca286e224c1d, datestamp=1604890632 (Nov 09 2020 02:57:12)
+29827.064 (2) This backup set is the backup set just made, so will not be deleted.
+29827.064 (2) Examining (for databases) backup set with group_id=0, nonce=628163ff2d9b, datestamp=1604041121 (Oct 30 2020 06:58:41)
+29827.064 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+29827.067 (2) Examining (for databases) backup set with group_id=0, nonce=6bbce06a2006, datestamp=1603683303 (Oct 26 2020 03:35:03)
+29827.067 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+29827.067 (2) Number of backup sets in history: 3; groups (files): 1
+29827.070 (2) Examining (for files) backup set with nonce=ca286e224c1d, datestamp=1604890632 (Nov 09 2020 02:57:12)
+29827.070 (2) This backup set is the backup set just made, so will not be deleted.
+29827.074 (2) This backup set is the backup set just made, so will not be deleted.
+29827.074 (2) This backup set is the backup set just made, so will not be deleted.
+29827.074 (2) This backup set is the backup set just made, so will not be deleted.
+29827.074 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+29827.077 (2) Examining (for files) backup set with nonce=628163ff2d9b, datestamp=1604041121 (Oct 30 2020 06:58:41)
+29827.077 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+29827.077 (2) Examining (for files) backup set with nonce=6bbce06a2006, datestamp=1603683303 (Oct 26 2020 03:35:03)
+29827.077 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+29827.077 (2) Retain: saving new backup history (sets now: 3) and finishing retain operation
+29827.085 (2) Resume backup (ca286e224c1d, 2): finish run
+29827.091 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+29827.098 (2) The backup has not finished; a resumption is scheduled
+31395.446 (3) Opened log file at time: Mon, 09 Nov 2020 11:40:28 +0000 on http://localhost/wordpress
+31395.450 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.30 WP: 5.5.3 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-M2GJHJ8 10.0 build 18363 (Windows 10) AMD64) MySQL: 8.0.21 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.7M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+31395.453 (3) Free space on disk containing Updraft's temporary directory: 64089.2 MB
+31395.459 (3) Backup run: resumption=3, nonce=ca286e224c1d, file_nonce=ca286e224c1d begun at=1604890632 (31396s ago), job type=backup, previous check-in=137.2s
+31395.462 (3) Long time past since expected resumption time: approx expected=1604920699.9, now=1604922028.4, diff=1328.4
+31395.465 (3) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+31395.471 (3) Scheduling a resumption (4) after 300 seconds (1604922328) in case this run gets aborted
+31395.478 (3) Checking if we have a zip executable available
+31395.481 (3) Creation of backups of directories: already finished
+31395.484 (3) Saving backup status to database (elements: 8)
+31395.493 (3) Database dump (WordPress DB): Creation was completed already
+31395.498 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+31395.512 (3) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+31395.517 (3) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs/wp-content/updraft/backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-themes.zip)
+31395.523 (3) Recording as successfully uploaded: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-themes.zip
+31395.531 (3) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+31395.534 (3) backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-others.zip: others: This file has already been successfully uploaded
+31395.537 (3) backup_2020-11-09-0257_SLU_ICON_ca286e224c1d-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+31395.539 (3) Saving backup history. Total backup size: Unknown
+31395.546 (3) Requesting upload of the files that have not yet been successfully uploaded (2)
+31395.552 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+31395.555 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-70a3bd77fb4fd54f6d448503354e7a3d)
+31397.555 (3) Google Drive: quota usage: used=8790.8 MB, total=10494550.8 MB, available=10485760 MB
+31397.568 (3) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-plugins.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+31397.830 (3) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-plugins.zip: upload already began; attempting to resume from byte 3932159
+31398.709 (3) Googledrive chunked upload: 14.4 % uploaded (4980736)
+31399.582 (3) Googledrive chunked upload: 17.4 % uploaded (6029312)
+31400.429 (3) Googledrive chunked upload: 20.4 % uploaded (7077888)
+94003.589 (3) Google Drive: Upload error: Operation timed out after 62604006 milliseconds with 0 bytes received (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+94004.588 (3) An error condition has occurred for the first time during this job
+94004.593 (3) Google Drive: quota usage: failed to obtain this information: Could not resolve host: accounts.google.com
+94004.598 (3) Google Drive: backup_2020-11-09-0257_SLU_ICON_5cff436e17d4-uploads.zip: Attempting to upload to Google Drive (into folder id: 156xMwVXen25KY-_6KYPEy7dzSnNMiv0L)
+94004.604 (3) Google Drive: Upload error: Could not resolve host: accounts.google.com (line: 117, file: C:\Bitnami\wordpress-5.5.1-1\apps\wordpress\htdocs\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+94004.611 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+94004.616 (3) Number of backup sets in history: 3; groups (db): 1
+94004.619 (3) Examining (for databases) backup set with group_id=0, nonce=ca286e224c1d, datestamp=1604890632 (Nov 09 2020 02:57:12)
+94004.622 (3) This backup set is the backup set just made, so will not be deleted.
+94004.622 (3) Examining (for databases) backup set with group_id=0, nonce=628163ff2d9b, datestamp=1604041121 (Oct 30 2020 06:58:41)
+94004.622 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+94004.625 (3) Examining (for databases) backup set with group_id=0, nonce=6bbce06a2006, datestamp=1603683303 (Oct 26 2020 03:35:03)
+94004.625 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+94004.625 (3) Number of backup sets in history: 3; groups (files): 1
+94004.628 (3) Examining (for files) backup set with nonce=ca286e224c1d, datestamp=1604890632 (Nov 09 2020 02:57:12)
+94004.628 (3) This backup set is the backup set just made, so will not be deleted.
+94004.631 (3) This backup set is the backup set just made, so will not be deleted.
+94004.631 (3) This backup set is the backup set just made, so will not be deleted.
+94004.631 (3) This backup set is the backup set just made, so will not be deleted.
+94004.631 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+94004.636 (3) Examining (for files) backup set with nonce=628163ff2d9b, datestamp=1604041121 (Oct 30 2020 06:58:41)
+94004.636 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+94004.636 (3) Examining (for files) backup set with nonce=6bbce06a2006, datestamp=1603683303 (Oct 26 2020 03:35:03)
+94004.636 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+94004.636 (3) Retain: saving new backup history (sets now: 3) and finishing retain operation
+94004.647 (3) Resume backup (ca286e224c1d, 3): finish run
+94004.654 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+94004.660 (3) The backup has not finished; a resumption is scheduled
+981659.678 (4) Opened log file at time: Fri, 20 Nov 2020 11:38:12 +0000 on http://localhost/wordpress
+981659.683 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.30 WP: 5.5.3 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-M2GJHJ8 10.0 build 18363 (Windows 10) AMD64) MySQL: 8.0.21 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 3.8M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+981659.686 (4) Free space on disk containing Updraft's temporary directory: 60152.9 MB
+981659.689 (4) This backup task (ca286e224c1d) is either complete or began over 2 days ago: ending (1605872292.5901, 1604890632) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, runs_started, current_resumption, binzip, filecreating_substatus, files_enumerated_at, warnings, run_times, useful_checkin, sha1-plugins0, sha256-plugins0, sha1-themes0, sha256-themes0, sha1-uploads0, sha256-uploads0, sha1-others0, sha256-others0, backup_files_array, binsqldump, dbcreating_substatus, sha1-db0, sha256-db0, uploading_substatus, googledrive-s-70a3bd77fb4fd54f6d448503354e7a3d, uploaded_9114656997c957fa5d08164b7d2b72da, uploaded_googledrive-s-70a3bd77fb4fd54f6d448503354e7a3d-9114656997c957fa5d08164b7d2b72da, uploaded_1e87cec533705dd0e96d642fd3adaf5f, uploaded_googledrive-s-70a3bd77fb4fd54f6d448503354e7a3d-1e87cec533705dd0e96d642fd3adaf5f, prune, uploaded_49cc2e98b2d507e6de187f853cf49cf7)
